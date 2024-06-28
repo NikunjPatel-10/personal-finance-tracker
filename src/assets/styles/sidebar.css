@@ -1,0 +1,45 @@
+.sidebar-nav-list {
+  margin-top: 1rem;
+  list-style: none;
+  color: #989d9e;
+}
+
+.sidebar-nav-item {
+  transition: 0.4s all;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.nav-item-text {
+  color: var(--mantine-color-grey);
+  visibility: visible;
+  opacity: 1;
+  white-space: nowrap;
+  transform: translateX(0);
+  transition: 0.4s all;
+}
+
+.nav-item-text-remove {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(200px);
+  transition: 0.4s all;
+}
+
+.sidebar-nav-item:hover .nav-item-text,
+.sidebar-nav-item:has(.active) .nav-item-text {
+  color: var(--mantine-color-secondary);
+  text-shadow: 0 0 0.65px var(--mantine-color-secondary),
+    0 0 0.65px var(--mantine-color-secondary);
+}
+
+.sidebar-nav-item:hover,
+.sidebar-nav-item:has(.active) {
+  border-left: 5px solid var(--mantine-color-primary-7);
+  background-color: #2560b60f;
+  color: var(--mantine-color-secondary);
+}
+
+.transition-all {
+  transition: 0.4s all;
+}

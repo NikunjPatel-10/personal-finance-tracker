@@ -1,0 +1,7 @@
+/* Icons  */
+@import url('./../src/assets/icons/style.css');
+
+/* styles */
+@import url('./../src/assets/styles/global.css');
+@import url('./../src/assets/styles/header.css');
+@import url('./../src/assets/styles/sidebar.css');

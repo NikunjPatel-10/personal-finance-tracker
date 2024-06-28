@@ -1,0 +1,27 @@
+.navlink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--mantine-color-secondary);
+  transition: text-shadow 0.2s;
+}
+
+.navlink::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.active {
+  text-shadow: 0 0 0.65px var(--mantine-color-secondary),
+    0 0 0.65px var(--mantine-color-secondary);
+}
+
+.active.navlink::after {
+  border-bottom: 4px solid var(--mantine-color-primary-7);
+  border-radius: 5px;
+}

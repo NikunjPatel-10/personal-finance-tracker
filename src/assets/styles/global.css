@@ -1,0 +1,75 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--mantine-body-bg);
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 22px;
+  @media (min-width: 1400px) {
+    font-size: 24px;
+  }
+}
+
+/* start: css for mantine calendar */
+.mantine-Calendar-day[data-outside='true']{
+  background-color: rgba(217, 217, 217, 40%);
+}
+
+.add-reminder-btn{
+  visibility: hidden;
+}
+
+.mantine-Calendar-monthCell:hover .mantine-Calendar-day[data-outside='true'] .add-reminder-btn,
+.mantine-Calendar-monthCell:hover .mantine-Calendar-day[data-disabled='true'] .add-reminder-btn{
+  display: none;
+}
+
+.mantine-Calendar-monthCell .current-day .add-reminder-btn{
+  visibility: visible;
+}
+.mantine-Calendar-monthCell .previous-day .add-reminder-btn{
+  visibility: hidden;
+}
+
+
+.mantine-Calendar-monthCell,
+.mantine-Calendar-monthCell:hover .mantine-Calendar-day[data-outside='true'] .date-cell,
+.mantine-Calendar-monthCell:hover .mantine-Calendar-day[data-disabled='true'] .date-cell {
+  border: 1px solid #D9D9D9,
+ 
+}
+.mantine-Calendar-monthCell:hover .date-cell {
+  border-top: 3px solid #2880FC;
+}
+.mantine-Calendar-monthCell .date-cell {
+  border-top: 3px solid transparent;
+  transition: all 0.4s;
+}
+.mantine-Calendar-monthCell .current-day{
+  border-top: 3px solid #2880FC;
+  background-color: rgba(217, 217, 217, 40%);
+}
+.mantine-Calendar-monthCell .mantine-Calendar-day[data-disabled='true'],
+.mantine-Calendar-monthCell .mantine-Calendar-day[data-outside='true']{
+  pointer-events: none;
+}
+/* end: css for mantine calendar */

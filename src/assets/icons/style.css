@@ -1,0 +1,465 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yv4eja');
+  src:  url('fonts/icomoon.eot?yv4eja#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yv4eja') format('truetype'),
+    url('fonts/icomoon.woff?yv4eja') format('woff'),
+    url('fonts/icomoon.svg?yv4eja#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e914";
+  color: #8694aa;
+}
+.icon-avaialble-balance .path1:before {
+  content: "\e915";
+  color: rgb(172, 202, 245);
+  opacity: 0.25;
+}
+.icon-avaialble-balance .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 65, 112);
+}
+.icon-avaialble-balance .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 65, 112);
+}
+.icon-card-total-income .path1:before {
+  content: "\e922";
+  color: rgb(171, 236, 191);
+  opacity: 0.34;
+}
+.icon-card-total-income .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(88, 166, 95);
+}
+.icon-card-total-expense .path1:before {
+  content: "\e93e";
+  color: rgb(255, 230, 211);
+}
+.icon-card-total-expense .path2:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(236, 122, 35);
+}
+.icon-time:before {
+  content: "\e948";
+  color: #8694aa;
+}
+.icon-add-reminder .path1:before {
+  content: "\e949";
+  color: rgb(37, 96, 182);
+}
+.icon-add-reminder .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-inactive-users .path1:before {
+  content: "\e952";
+  color: rgb(79, 104, 140);
+  opacity: 0.15;
+}
+.icon-inactive-users .path2:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(79, 104, 140);
+}
+.icon-inactive-users .path3:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(79, 104, 140);
+}
+.icon-inactive-users .path4:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(79, 104, 140);
+}
+.icon-active-users .path1:before {
+  content: "\e95d";
+  color: rgb(171, 236, 191);
+  opacity: 0.34;
+}
+.icon-active-users .path2:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(88, 166, 95);
+}
+.icon-active-users .path3:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(88, 166, 95);
+}
+.icon-active-users .path4:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(88, 166, 95);
+}
+.icon-rejected-users .path1:before {
+  content: "\e961";
+  color: rgb(218, 95, 95);
+  opacity: 0.1;
+}
+.icon-rejected-users .path2:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(218, 95, 95);
+}
+.icon-rejected-users .path3:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(218, 95, 95);
+}
+.icon-rejected-users .path4:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(218, 95, 95);
+}
+.icon-approved-users .path1:before {
+  content: "\e965";
+  color: rgb(172, 202, 245);
+  opacity: 0.2;
+}
+.icon-approved-users .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-approved-users .path3:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-approved-users .path4:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-approved-users .path5:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-pending-users .path1:before {
+  content: "\e96a";
+  color: rgb(236, 122, 35);
+  opacity: 0.1;
+}
+.icon-pending-users .path2:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(236, 122, 35);
+}
+.icon-pending-users .path3:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(236, 122, 35);
+}
+.icon-pending-users .path4:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(236, 122, 35);
+}
+.icon-plus:before {
+  content: "\e913";
+}
+.icon-edit-profile:before {
+  content: "\e912";
+}
+.icon-sign-out:before {
+  content: "\e916";
+}
+.icon-sip-category:before {
+  content: "\e917";
+}
+.icon-taxes-category:before {
+  content: "\e918";
+}
+.icon-total-expense:before {
+  content: "\e919";
+}
+.icon-total-income:before {
+  content: "\e91a";
+}
+.icon-total-investment:before {
+  content: "\e91b";
+}
+.icon-transactions:before {
+  content: "\e91c";
+}
+.icon-transportation-categoy:before {
+  content: "\e91f";
+}
+.icon-user-city .path1:before {
+  content: "\e920";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-city .path2:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-country .path1:before {
+  content: "\e923";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-country .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-dob .path1:before {
+  content: "\e925";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-dob .path2:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-gender .path1:before {
+  content: "\e927";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-gender .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-gender .path3:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-location .path1:before {
+  content: "\e92a";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-location .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-location .path3:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-state .path1:before {
+  content: "\e92e";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-state .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-state .path3:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path1:before {
+  content: "\e931";
+  color: rgb(77, 141, 237);
+  opacity: 0.0800;
+}
+.icon-user-zip .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path4:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path5:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path6:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path7:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path8:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-user-zip .path9:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(37, 96, 182);
+}
+.icon-404:before {
+  content: "\e93a";
+}
+.icon-action:before {
+  content: "\e93b";
+}
+.icon-change-password:before {
+  content: "\e93c";
+}
+.icon-dashboard:before {
+  content: "\e93d";
+}
+.icon-date:before {
+  content: "\e93f";
+}
+.icon-delete:before {
+  content: "\e940";
+}
+.icon-dollar:before {
+  content: "\e941";
+}
+.icon-eatingout:before {
+  content: "\e942";
+}
+.icon-edit:before {
+  content: "\e943";
+}
+.icon-entertainment-category:before {
+  content: "\e944";
+}
+.icon-exclamation:before {
+  content: "\e945";
+}
+.icon-expenses:before {
+  content: "\e946";
+}
+.icon-family-category:before {
+  content: "\e94b";
+}
+.icon-foods-category:before {
+  content: "\e94c";
+}
+.icon-fuel-category:before {
+  content: "\e94d";
+}
+.icon-gifts-category:before {
+  content: "\e94e";
+}
+.icon-health-category:before {
+  content: "\e94f";
+}
+.icon-homebills-category:before {
+  content: "\e950";
+}
+.icon-income:before {
+  content: "\e951";
+}
+.icon-income-category:before {
+  content: "\e953";
+}
+.icon-investment:before {
+  content: "\e954";
+}
+.icon-menu:before {
+  content: "\e956";
+}
+.icon-oddjobs-category:before {
+  content: "\e957";
+}
+.icon-others-category:before {
+  content: "\e958";
+}
+.icon-personal-saving-category:before {
+  content: "\e959";
+}
+.icon-shopping-category:before {
+  content: "\e95a";
+}
+.icon-approve:before {
+  content: "\e900";
+}
+.icon-arrow-down:before {
+  content: "\e901";
+}
+.icon-arrow-up:before {
+  content: "\e902";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-email:before {
+  content: "\e904";
+}
+.icon-hidden:before {
+  content: "\e905";
+}
+.icon-info:before {
+  content: "\e906";
+}
+.icon-next:before {
+  content: "\e907";
+}
+.icon-notification:before {
+  content: "\e908";
+}
+.icon-password:before {
+  content: "\e909";
+}
+.icon-phone:before {
+  content: "\e90a";
+}
+.icon-prew:before {
+  content: "\e90b";
+}
+.icon-reject:before {
+  content: "\e90c";
+}
+.icon-reject-request:before {
+  content: "\e90d";
+}
+.icon-successfull:before {
+  content: "\e90e";
+}
+.icon-user:before {
+  content: "\e90f";
+}
+.icon-verify-email:before {
+  content: "\e910";
+}
+.icon-visible:before {
+  content: "\e911";
+}
